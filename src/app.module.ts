@@ -6,7 +6,7 @@ import { UsersModule } from './module/users/users.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb+srv://SU_Vinith:vini@cluster0.0xnnx.mongodb.net/assig?retryWrites=true&w=majority'), UsersModule],
+  imports: [MongooseModule.forRoot('mongodb+srv://<username>:<password>@cluster0.0xnnx.mongodb.net/<schema>?retryWrites=true&w=majority'), UsersModule],
   controllers: [AppController],
   providers: [AppService],
 })
