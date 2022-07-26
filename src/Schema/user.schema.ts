@@ -22,8 +22,7 @@ export class User {
     @Prop()
     friends:[string];
 
-    // @Prop({type : mongoose.Schema.Types.ObjectId, ref : 'users'} )
-    // _id:string;
+   
 
 }
 
